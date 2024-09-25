@@ -340,7 +340,7 @@ public:
         }
     }
 
-
+//for test
     void store_content_with_ids(const std::vector<std::string>& input, const std::string& output, const std::string& chunkID, const std::string& compressor) {
     std::unordered_map<std::string, int> content_to_id;
     std::unordered_map<int, std::string> id_to_content;
